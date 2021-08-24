@@ -6,6 +6,7 @@ dropDownMenuBtn.addEventListener("click", function () {
   menuState = !menuState;
   dropDownMenu.classList.toggle("active");
   document.querySelector("body").classList.toggle("nav-active");
+  document.querySelector(".nav-container").classList.toggle("active-index");
   this.classList.toggle("active");
 });
 bookmarkBtn.addEventListener("click", function (e) {
