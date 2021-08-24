@@ -7,6 +7,14 @@
   font-family: "Commissioner", sans-serif;
   transition: background-color 0.35s;
 }
+input,
+textarea,
+button,
+select,
+img,
+svg a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 img,
 svg {
   outline: 0;
