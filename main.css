@@ -500,8 +500,10 @@ section.completed-modal-active {
   font-weight: 500;
   font-size: 1rem;
 }
-.p-t-c-head > a,
 .hiddenLink {
+  color: var(--dark-gray);
+}
+.p-t-c-head > a {
   color: var(--dark-gray);
   position: absolute;
   right: 2rem;
