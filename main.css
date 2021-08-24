@@ -12,7 +12,8 @@ textarea,
 button,
 select,
 img,
-svg a {
+svg,
+a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 img,
